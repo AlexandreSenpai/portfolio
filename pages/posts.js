@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import MainLayout from '../components/layouts/main'
-import HomePage from '../components/pages/home'
+import Posts from '../components/pages/posts'
 
 export default function Home() {
   return (
     <MainLayout>
       <Head>
-        <title>Homepage | Alexandre Ramos</title>
+        <title>Postagens | Alexandre Ramos</title>
       </Head>
-      <HomePage />
+      <Posts />
     </MainLayout>
   )
 }

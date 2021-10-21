@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import MainLayout from '../components/layouts/main'
-import HomePage from '../components/pages/home'
+import NotFound from '../components/pages/404'
 
 export default function Home() {
   return (
     <MainLayout>
       <Head>
-        <title>Homepage | Alexandre Ramos</title>
+        <title>404 - Página não encontrada | Alexandre Ramos</title>
       </Head>
-      <HomePage />
+      <NotFound />
     </MainLayout>
   )
 }
