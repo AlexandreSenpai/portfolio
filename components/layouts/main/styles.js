@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 export const Container = styled(motion.div)`
   width: 100%;
   min-height: 100vh;
-  background: ${props => props.theme.background.primary};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +14,6 @@ export const MainContainer = styled.main`
   max-width: 81.20rem;
   height: 100%;
   margin-top: 5rem;
-  background: ${props => props.theme.background.primary};
   position: relative;
   z-index: 3;
 `;
@@ -50,6 +48,10 @@ export const AvatarContainer = styled.div`
 
 export const Avatar = styled(motion.img)`
   width: 100%;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 `;
 
 export const HeaderTitleHolder = styled.div`
@@ -62,6 +64,10 @@ export const Title = styled(motion.h1)`
   font-weight: normal;
   color: ${props => props.theme.fonts.color.highlight};
   text-align: center;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 `;
 
 export const SubTitle = styled(motion.h3)`
@@ -69,4 +75,8 @@ export const SubTitle = styled(motion.h3)`
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
   text-align: center;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 `;

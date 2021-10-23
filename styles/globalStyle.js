@@ -8,6 +8,8 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     color: ${(props) => props.theme.fonts.color.primary};
     background: ${props => props.theme.background.primary};
+
+    transition: 200ms ease-in-out;
   }
   *, *::after, *::before{
     margin: 0;

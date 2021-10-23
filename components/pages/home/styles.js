@@ -76,3 +76,7 @@ export const Hello = styled.p`
 export const Icon = styled.img`
   width: 3rem;
 `;
+
+export const Error = styled.span`
+  color: ${({theme}) => theme.fonts.color.error};
+`;

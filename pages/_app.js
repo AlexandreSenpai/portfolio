@@ -1,11 +1,11 @@
-import { ThemeProvider } from "styled-components"
 import { GlobalStyle } from "../styles/globalStyle"
-import { theme } from "../styles/theme"
 import { motion } from 'framer-motion'
+import { ThemeContextProvider } from "../contexts/theme.context"
 
 export default function App({
   Component, pageProps, router
 }) {
+
   return (
     <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" variants={{
       pageInitial: {
@@ -18,10 +18,10 @@ export default function App({
         }
       },
     }}>
-      <ThemeProvider theme={theme}>
+      <ThemeContextProvider>
         <GlobalStyle />
         <Component {...pageProps} />
-      </ThemeProvider>
+      </ThemeContextProvider>
     </motion.div>
   )
 }

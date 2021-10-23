@@ -2,7 +2,7 @@ import React from 'react';
 import { BsTwitter, BsLinkedin, BsYoutube } from 'react-icons/bs'
 import { fadeInUp, stagger } from '../../../animations';
 
-import { Container, Hello, Highlight, LeftContainer, Paragraph, RightContainer, TextBox, UserPhoto, UserPhotoHolder, Title, LinkSpan, Icon } from './styles';
+import { Container, Hello, Highlight, LeftContainer, Paragraph, RightContainer, TextBox, UserPhoto, UserPhotoHolder, Title, LinkSpan, Icon, Error } from './styles';
 
 function Home() {
   return(
@@ -28,7 +28,7 @@ function Home() {
           variants={fadeInUp}
         >
           <Title>
-            Sobre Mim
+            Sobre mim
           </Title>
           <Paragraph>
             Atualmente atuo como <Highlight>Desenvolvedor Backend</Highlight> no time de Google Cloud Platform da Hvar Consulting.<br /><br />
@@ -58,16 +58,18 @@ function Home() {
             Fatos aleatórios sobre mim
           </Title>
           <Paragraph>
-            essa sessão só está aqui por que o github sugeriu
+            <Error><s>essa sessão só está aqui por que o github sugeriu</s></Error>
           </Paragraph>
           <Paragraph>
-            🔭 Atualmente estou trabalhando em: Um código para traduzir e editar automáticamente mangás.<br />
-            🌱 Atualmente estou aprendendo: Arquitetura de microsserviços.<br />
-            👯 Estou procurando colaborar em: Qualquer projeto, sério, se tiver espaço pra contrib tô dentro.<br />
-            💬 Me pergunte sobre: Python, as vezes, mesmo que eu não saiba, é algo novo que eu aprendo.<br />
-            📺 Estilo preferido de jogo: Rítmo. OSU É MUITO BOM.<br />
-            😄 Pronomes: Ele/Dele<br />
-            ⚡ Fato engraçado: Sou péssimo em jogos de azar, mesmo gostando, e dou graças a Deus que caça-níquel é proíbido no Brasil.
+            <ul>
+              <li>🔭 Atualmente estou trabalhando em: Um código para traduzir e editar automáticamente mangás.</li>
+              <li>🌱 Atualmente estou aprendendo: Arquitetura de microsserviços.</li>
+              <li>👯 Estou procurando colaborar em: Qualquer projeto, sério, se tiver espaço pra contrib tô dentro.</li>
+              <li>💬 Me pergunte sobre: Python, as vezes, mesmo que eu não saiba, é algo novo que eu aprendo.</li>
+              <li>📺 Estilo preferido de jogo: Rítmo. OSU É MUITO BOM.</li>
+              <li>😄 Pronomes: Ele/Dele</li>
+              <li>⚡ Fato engraçado: Sou péssimo em jogos de azar, mesmo gostando, e dou graças a Deus que caça-níquel é proíbido no Brasil.</li>
+            </ul>
           </Paragraph>
         </TextBox>
       </RightContainer>
