@@ -43,7 +43,7 @@ export const getStaticProps = async ({ params }) => {
         date: post.data.created_at,
         tags: post.data.tags
       },
-      revalidate: 43200
+      revalidate: 30
     }
   }catch(err){
     return {

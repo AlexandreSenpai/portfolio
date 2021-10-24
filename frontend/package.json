@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "docker": "gcloud builds submit --tag gcr.io/alexandresenpai/portfolio-backend",
+    "deploy": "gcloud run deploy portfolio-backend --image gcr.io/alexandresenpai/portfolio-backend"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
