@@ -49,6 +49,15 @@ export const Container = styled(motion.div)`
     font-size: 1.6rem;
   }
 
+  img {
+    width: 100%;
+    transition: transform 100ms ease-in-out;
+    :hover {
+      transform: scale(1.5);
+      cursor: zoom-in;
+    }
+  }
+
   td, th{
     border: 1px solid ${({ theme }) => theme.border.primary};
     padding: .4rem;

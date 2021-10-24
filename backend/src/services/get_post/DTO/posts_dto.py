@@ -7,6 +7,8 @@ class PostDTO:
   title: str
   content: str
   created_at: str
+  updated_at: str
+  author: str
   tags: List[str]
 
   @classmethod
@@ -15,6 +17,8 @@ class PostDTO:
               "title": json_object.get('title'),
               "content": json_object.get('content'),
               "created_at": json_object.get('created_at'),
+              "updated_at": json_object.get('updated_at'),
+              "author": json_object.get('author'),
               "tags": json_object.get('tags')}
       
       return cls(*args.values())

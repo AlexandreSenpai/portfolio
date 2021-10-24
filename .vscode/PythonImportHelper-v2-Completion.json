@@ -204,7 +204,7 @@
         "kind": 6,
         "importPath": "backend.src.services.get_post.DTO.posts_dto",
         "description": "backend.src.services.get_post.DTO.posts_dto",
-        "peekOfCode": "class PostDTO:\n  id: str\n  title: str\n  content: str\n  created_at: str\n  tags: List[str]\n  @classmethod\n  def from_json(cls, json_object: dict):\n      args = {\"id\": json_object.get('id'),\n              \"title\": json_object.get('title'),",
+        "peekOfCode": "class PostDTO:\n  id: str\n  title: str\n  content: str\n  created_at: str\n  updated_at: str\n  author: str\n  tags: List[str]\n  @classmethod\n  def from_json(cls, json_object: dict):",
         "detail": "backend.src.services.get_post.DTO.posts_dto",
         "documentation": {}
     },
@@ -231,7 +231,7 @@
         "kind": 6,
         "importPath": "backend.src.services.list_posts.DTO.posts_dto",
         "description": "backend.src.services.list_posts.DTO.posts_dto",
-        "peekOfCode": "class Post:\n  id: str\n  title: str\n  content: str\n  created_at: str\n  tags: List[str]\n  thumbnail: str\n  description: str\n  @classmethod\n  def from_json(cls, json_object: dict):",
+        "peekOfCode": "class Post:\n  id: str\n  title: str\n  created_at: str\n  updated_at: str\n  tags: List[str]\n  thumbnail: str\n  author: str\n  description: str\n  @classmethod",
         "detail": "backend.src.services.list_posts.DTO.posts_dto",
         "documentation": {}
     },

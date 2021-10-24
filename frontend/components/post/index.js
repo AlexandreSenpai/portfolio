@@ -4,12 +4,12 @@ import Markdown from '../markdown';
 
 import { Container, PostTitle, PostHeader, PostDate, PostFooter, Tag } from './styles';
 
-function Post({ content, title, date, tags }) {
+function Post({ content, title, created_at, updated_at, tags }) {
   return(
     <Container variants={fadeInLeft}>
       <PostHeader>
         <PostTitle>{ title }</PostTitle>
-        <PostDate>{ date }</PostDate>
+        <PostDate>Criado em: { created_at } | Atualizado em: { updated_at }</PostDate>
       </PostHeader>
       <Markdown content={content} />
       <PostFooter>

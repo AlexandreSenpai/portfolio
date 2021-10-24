@@ -11,13 +11,13 @@ import remarkGfm from 'remark-gfm'
 import remarkStringify from 'remark-stringify'
 import { api } from '../../services/api'
 
-export default function Home({ content, title, date, tags }) {
+export default function Home({ content, title, created_at, updated_at, tags }) {
   return (
     <SecondaryLayout>
       <Head>
         <title>{ title } | Alexandre Ramos</title>
       </Head>
-      <Post content={content || ''} date={date || ''} title={title || ''} tags={tags || []} />
+      <Post content={content || ''} created_at={created_at || ''} updated_at={updated_at || ''} title={title || ''} tags={tags || []} />
     </SecondaryLayout>
   )
 }
@@ -40,10 +40,11 @@ export const getStaticProps = async ({ params }) => {
       props: {
         content: result.toString(),
         title: post.data.title,
-        date: post.data.created_at,
+        created_at: post.data.created_at,
+        updated_at: post?.data?.updated_at,
         tags: post.data.tags
       },
-      revalidate: 30
+      revalidate: 3600
     }
   }catch(err){
     return {
