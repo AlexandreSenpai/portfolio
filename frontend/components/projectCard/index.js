@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { fadeInLeft, fadeInUp } from '../../animations'
-import LanguageTag from '../LanguageTag';
+import LanguageTag from '../languageTag';
 
 import { Container, Description, DescriptionHolder, Thumbnail, ThumbnailHolder, Title, WIP, DONE, LeftDescriptionContainer, TitleHolder, TagHolder, RightDescriptionContainer, ActionButton } from './styles';
 
