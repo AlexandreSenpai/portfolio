@@ -1,0 +1,337 @@
+[
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "flask.wrappers",
+        "description": "flask.wrappers",
+        "isExtraImport": true,
+        "detail": "flask.wrappers",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "flask.wrappers",
+        "description": "flask.wrappers",
+        "isExtraImport": true,
+        "detail": "flask.wrappers",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "flask.wrappers",
+        "description": "flask.wrappers",
+        "isExtraImport": true,
+        "detail": "flask.wrappers",
+        "documentation": {}
+    },
+    {
+        "label": "PostDTO",
+        "importPath": "src.services.get_post.DTO.posts_dto",
+        "description": "src.services.get_post.DTO.posts_dto",
+        "isExtraImport": true,
+        "detail": "src.services.get_post.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "FirestoreRepository",
+        "importPath": "src.repositories.firestore_repository",
+        "description": "src.repositories.firestore_repository",
+        "isExtraImport": true,
+        "detail": "src.repositories.firestore_repository",
+        "documentation": {}
+    },
+    {
+        "label": "FirestoreRepository",
+        "importPath": "src.repositories.firestore_repository",
+        "description": "src.repositories.firestore_repository",
+        "isExtraImport": true,
+        "detail": "src.repositories.firestore_repository",
+        "documentation": {}
+    },
+    {
+        "label": "FirestoreRepository",
+        "importPath": "src.repositories.firestore_repository",
+        "description": "src.repositories.firestore_repository",
+        "isExtraImport": true,
+        "detail": "src.repositories.firestore_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PostsDTO",
+        "importPath": "src.services.list_posts.DTO.posts_dto",
+        "description": "src.services.list_posts.DTO.posts_dto",
+        "isExtraImport": true,
+        "detail": "src.services.list_posts.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "importPath": "src.services.list_posts.DTO.posts_dto",
+        "description": "src.services.list_posts.DTO.posts_dto",
+        "isExtraImport": true,
+        "detail": "src.services.list_posts.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "PostsDTO",
+        "importPath": "src.services.list_posts.DTO.posts_dto",
+        "description": "src.services.list_posts.DTO.posts_dto",
+        "isExtraImport": true,
+        "detail": "src.services.list_posts.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "PostsDTO",
+        "importPath": "src.services.list_posts.DTO.posts_dto",
+        "description": "src.services.list_posts.DTO.posts_dto",
+        "isExtraImport": true,
+        "detail": "src.services.list_posts.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "src.services.list_posts.DTO.posts_dto",
+        "description": "src.services.list_posts.DTO.posts_dto",
+        "isExtraImport": true,
+        "detail": "src.services.list_posts.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectsDTO",
+        "importPath": "src.services.list_posts.DTO.posts_dto",
+        "description": "src.services.list_posts.DTO.posts_dto",
+        "isExtraImport": true,
+        "detail": "src.services.list_posts.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.app",
+        "description": "src.app",
+        "isExtraImport": true,
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "PostDTO",
+        "kind": 6,
+        "importPath": "src.services.get_post.DTO.posts_dto",
+        "description": "src.services.get_post.DTO.posts_dto",
+        "peekOfCode": "class PostDTO:\n  id: str\n  title: str\n  content: str\n  created_at: str\n  tags: List[str]\n  @classmethod\n  def from_json(cls, json_object: dict):\n      args = {\"id\": json_object.get('id'),\n              \"title\": json_object.get('title'),",
+        "detail": "src.services.get_post.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetPostController",
+        "kind": 6,
+        "importPath": "src.services.get_post.controller",
+        "description": "src.services.get_post.controller",
+        "peekOfCode": "class GetPostController:\n    def __init__(self, get_post_service: GetPostUseCase):\n        self.get_post_service = get_post_service\n    def execute(self, post_id: str) -> PostDTO:\n        return self.get_post_service.execute(post_id=post_id)",
+        "detail": "src.services.get_post.controller",
+        "documentation": {}
+    },
+    {
+        "label": "GetPostUseCase",
+        "kind": 6,
+        "importPath": "src.services.get_post.use_case",
+        "description": "src.services.get_post.use_case",
+        "peekOfCode": "class GetPostUseCase:\n  def __init__(self, repository: FirestoreRepository):\n    self.repository = repository\n  def execute(self, post_id: str) -> PostDTO:\n    post = self.repository.read(collection='posts', document=post_id)\n    return PostDTO.from_json({'id': post.id, **post.to_dict()})",
+        "detail": "src.services.get_post.use_case",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "kind": 6,
+        "importPath": "src.services.list_posts.DTO.posts_dto",
+        "description": "src.services.list_posts.DTO.posts_dto",
+        "peekOfCode": "class Project:\n  id: str\n  title: str\n  status: str\n  created_at: str\n  languages: List[str]\n  code_url: str\n  post_url: str\n  @classmethod\n  def from_json(cls, json_object: dict):",
+        "detail": "src.services.list_posts.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectsDTO",
+        "kind": 6,
+        "importPath": "src.services.list_posts.DTO.posts_dto",
+        "description": "src.services.list_posts.DTO.posts_dto",
+        "peekOfCode": "class ProjectsDTO:\n  projects: List[Project]\n  total_projects: int = 0\n  def to_dict(self):\n    return asdict(self)",
+        "detail": "src.services.list_posts.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "ListPostsController",
+        "kind": 6,
+        "importPath": "src.services.list_posts.controller",
+        "description": "src.services.list_posts.controller",
+        "peekOfCode": "class ListPostsController:\n    def __init__(self, list_posts_service: ListPostsUseCase):\n        self.list_posts_service = list_posts_service\n    def execute(self, request: Request) -> PostsDTO:\n        return self.list_posts_service.execute()",
+        "detail": "src.services.list_posts.controller",
+        "documentation": {}
+    },
+    {
+        "label": "ListPostsUseCase",
+        "kind": 6,
+        "importPath": "src.services.list_posts.use_case",
+        "description": "src.services.list_posts.use_case",
+        "peekOfCode": "class ListPostsUseCase:\n  def __init__(self, repository: FirestoreRepository):\n    self.repository = repository\n  def execute(self) -> PostsDTO:\n    snapshots = self.repository.list(collection='posts')\n    post_list = PostsDTO(posts=[])\n    for doc in snapshots:\n      post_list.posts.append(Post.from_json(json_object={'id': doc.id, **doc.to_dict()}))\n      post_list.total_posts += 1\n    return post_list",
+        "detail": "src.services.list_posts.use_case",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "src.services.list_projects.DTO.posts_dto",
+        "description": "src.services.list_projects.DTO.posts_dto",
+        "peekOfCode": "class Post:\n  id: str\n  title: str\n  content: str\n  created_at: str\n  tags: List[str]\n  @classmethod\n  def from_json(cls, json_object: dict):\n      args = {\"id\": json_object.get('id'),\n              \"title\": json_object.get('title'),",
+        "detail": "src.services.list_projects.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "PostsDTO",
+        "kind": 6,
+        "importPath": "src.services.list_projects.DTO.posts_dto",
+        "description": "src.services.list_projects.DTO.posts_dto",
+        "peekOfCode": "class PostsDTO:\n  posts: List[Post]\n  total_posts: int = 0\n  def to_dict(self):\n    return asdict(self)",
+        "detail": "src.services.list_projects.DTO.posts_dto",
+        "documentation": {}
+    },
+    {
+        "label": "ListProjectsController",
+        "kind": 6,
+        "importPath": "src.services.list_projects.controller",
+        "description": "src.services.list_projects.controller",
+        "peekOfCode": "class ListProjectsController:\n    def __init__(self, list_projects_service: ListProjectsUseCase):\n        self.list_projects_service = list_projects_service\n    def execute(self) -> PostsDTO:\n        return self.list_projects_service.execute()",
+        "detail": "src.services.list_projects.controller",
+        "documentation": {}
+    },
+    {
+        "label": "ListProjectsUseCase",
+        "kind": 6,
+        "importPath": "src.services.list_projects.use_case",
+        "description": "src.services.list_projects.use_case",
+        "peekOfCode": "class ListProjectsUseCase:\n  def __init__(self, repository: FirestoreRepository):\n    self.repository = repository\n  def execute(self) -> ProjectsDTO:\n    snapshots = self.repository.list(collection='projects')\n    projects_list = ProjectsDTO(posts=[])\n    for doc in snapshots:\n      projects_list.posts.append(Project.from_json(json_object={'id': doc.id, **doc.to_dict()}))\n      projects_list.total_projects += 1\n    return projects_list",
+        "detail": "src.services.list_projects.use_case",
+        "documentation": {}
+    },
+    {
+        "label": "list_posts",
+        "kind": 2,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "def list_posts():\n    return list_posts_controller.execute(request=request).to_dict(), 200\n@app.route('/projects', methods=['GET'])\ndef list_projects():\n    return list_projects_controller.execute().to_dict(), 200\n@app.route('/posts/<post_id>', methods=['GET'])\ndef get_post(post_id: str):\n    return get_post_controller.execute(post_id=post_id).to_dict(), 200",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "list_projects",
+        "kind": 2,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "def list_projects():\n    return list_projects_controller.execute().to_dict(), 200\n@app.route('/posts/<post_id>', methods=['GET'])\ndef get_post(post_id: str):\n    return get_post_controller.execute(post_id=post_id).to_dict(), 200",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "get_post",
+        "kind": 2,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "def get_post(post_id: str):\n    return get_post_controller.execute(post_id=post_id).to_dict(), 200",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/posts', methods=['GET'])\ndef list_posts():\n    return list_posts_controller.execute(request=request).to_dict(), 200\n@app.route('/projects', methods=['GET'])\ndef list_projects():\n    return list_projects_controller.execute().to_dict(), 200\n@app.route('/posts/<post_id>', methods=['GET'])\ndef get_post(post_id: str):\n    return get_post_controller.execute(post_id=post_id).to_dict(), 200",
+        "detail": "src.app",
+        "documentation": {}
+    }
+]
