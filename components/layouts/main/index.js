@@ -3,7 +3,6 @@ import Navbar from '../../nav';
 import { fadeInUp } from '../../../animations'
 
 import { Container, MainContainer, MainContainerHeader, AvatarContainer, Avatar, HeaderTitleHolder, Title, SubTitle } from './styles';
-import Particles from 'react-particles-js';
 
 function MainLayout({ children }) {
   return (

@@ -1,26 +1,27 @@
 import Head from 'next/head'
 import MainLayout from '../components/layouts/main'
-import Posts from '../components/pages/posts'
+import Projects from '../components/pages/projects'
+
 import { api } from '../services/api'
 
-export default function Home({ posts }) {
+export default function Home({ projects }) {
   return (
     <MainLayout>
       <Head>
-        <title>Postagens | Alexandre Ramos</title>
+        <title>Projetos | Alexandre Ramos</title>
       </Head>
-      <Posts posts={posts || []}/>
+      <Projects projects={projects || []}/>
     </MainLayout>
   )
 }
 
 export const getStaticProps = async ({ res }) => {
 
-  const posts = await api.get('/posts')
+  const projects = await api.get('/projects')
 
   return {
     props: {
-      posts: posts?.data?.posts,
+      projects: projects?.data?.projects,
     },
     revalidate: 3600
   }

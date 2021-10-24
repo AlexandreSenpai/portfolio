@@ -13,9 +13,13 @@ export const PageTitle = styled.h3``;
 
 export const GridContainer = styled(motion.div)`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 25rem));
   gap: 1rem;
   padding: 1.6rem;
+
+  @media only screen and (max-width: 725px){
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
 `
 
 export const Column = styled.div``

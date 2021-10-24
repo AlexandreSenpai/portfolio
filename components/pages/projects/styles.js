@@ -11,11 +11,8 @@ export const PageTitleHolder = styled(motion.div)`
 
 export const PageTitle = styled.h3``;
 
-export const GridContainer = styled(motion.div)`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 1rem;
+export const ProjectsContainer = styled(motion.div)`
+  display: flex;
+  flex-direction: column;
   padding: 1.6rem;
 `
-
-export const Column = styled.div``

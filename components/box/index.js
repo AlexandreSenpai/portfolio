@@ -1,21 +1,33 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 import { fadeInUp } from '../../animations'
 
 import { Container, Description, DescriptionHolder, Thumbnail, ThumbnailHolder, Title } from './styles';
 
-function Box() {
+function Box({ post }) {
+
+  const router = useRouter()
+
+  const navigate_to = () => {
+    router.push(`/p/${post.id}`)
+  }
+
   return(
-    <Container variants={fadeInUp} whileHover={{ scale: 1.03 }} whileTap={{ scale: 1 }}>
+    <Container 
+      variants={fadeInUp} 
+      whileHover={{ scale: 1.03 }} 
+      whileTap={{ scale: 1 }}
+      onClick={navigate_to}
+    >
       <ThumbnailHolder>
-        <Thumbnail src={"https://i.ytimg.com/vi/YUpZunbWxws/maxresdefault.jpg"}/>
+        <Thumbnail src={post?.thumbnail}/>
       </ThumbnailHolder>
       <DescriptionHolder>
         <Title>
-          Python Tutorial 🌠 Bad Apple!! 🍎
+          {post?.title}
         </Title>
         <Description>
-          Source code
-          github.com/alexandresenpai/bad-apple
+          {post?.description}
         </Description>
       </DescriptionHolder>
     </Container>

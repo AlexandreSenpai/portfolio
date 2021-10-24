@@ -1,33 +1,24 @@
 import React from 'react';
-import Box from '../../box'
 import { stagger } from '../../../animations';
+import ProjectCard from '../../projectCard';
 
-import { Container, GridContainer, PageTitle, PageTitleHolder } from './styles';
+import { Container, PageTitle, PageTitleHolder, ProjectsContainer } from './styles';
 
-function Posts() {
+function Projects({ projects }) {
   return(
     <Container exit={{ opacity: 0 }} initial="initial" animate="animate">
       <PageTitleHolder>
         <PageTitle>
-          Postagens
+          Projetos
         </PageTitle>
       </PageTitleHolder>
-      <GridContainer variants={stagger} >
-        <Box />
-        <Box />
-        <Box />
-        <Box />
-        <Box />
-        <Box />
-        <Box />
-        <Box />
-        <Box />
-        <Box />
-        <Box />
-        <Box />
-      </GridContainer>
+      <ProjectsContainer variants={stagger} >
+        {
+          projects.length > 0 && projects.map(project => (<ProjectCard key={project.id} project={project} />))
+        }
+      </ProjectsContainer>
     </Container>
   );
 }
 
-export default Posts;
+export default Projects;

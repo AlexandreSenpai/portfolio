@@ -11,9 +11,14 @@ export const ThumbnailHolder = styled(motion.div)`
   border-radius: .4rem;
   background: gray;
   overflow: hidden;
+  border: .1rem solid ${({ theme }) => theme.border.highlight};
 
   :hover{
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 725px){
+    height: 25rem;
   }
 `
 
@@ -36,4 +41,5 @@ export const Title = styled.h2`
 export const Description = styled.p`
   text-align: center;
   font-size: 12px;
+  opacity: .5;
 `

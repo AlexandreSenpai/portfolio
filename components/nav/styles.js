@@ -6,6 +6,7 @@ export const Container = styled.nav`
   width: 100%;
   height: 5rem;
   position: fixed;
+  background: ${({ theme }) => theme.background.navbar};
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   z-index: 999;
@@ -46,8 +47,6 @@ export const ListItem = styled(motion.li)`
 
 export const Logo = styled.img`
   width: 2rem;
-  
-  transition: 100ms ease-in-out;
 
   :hover {
     cursor: pointer;
