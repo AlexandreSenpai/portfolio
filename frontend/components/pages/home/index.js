@@ -45,10 +45,10 @@ function Home() {
             Sinceramente, é bem tranquilo me encontrar pela internet, seja por redes de desenho ou de código, em todas você pode fácilmente me localizar procurando por: <Highlight>AlexandreSenpai</Highlight>. Mas listarei para vocês alguns links diretos:
           </Paragraph>
           <Paragraph>
-            <LinkSpan><BsLinkedin /> @alexandre-r-152432134</LinkSpan><br />
-            <LinkSpan><BsTwitter /> @AlexandreSenpa1</LinkSpan><br />
-            <LinkSpan><BsYoutube /> @AlexandreSenpai</LinkSpan><br />
-            <LinkSpan><BsYoutube /> @D E V - S E N P A I 魔王</LinkSpan>
+            <LinkSpan><BsLinkedin /> <a href="https://www.linkedin.com/in/alexandre-r-152432134/" target='_blank'>@alexandre-r-152432134</a></LinkSpan><br />
+            <LinkSpan><BsTwitter /> <a href="https://twitter.com/AlexandreSenpa1" target='_blank'>@AlexandreSenpa1</a></LinkSpan><br />
+            <LinkSpan><BsYoutube /> <a href="https://www.youtube.com/c/AlexandreRamosSenpai" target='_blank'>@AlexandreSenpai</a></LinkSpan><br />
+            <LinkSpan><BsYoutube /> <a href="https://www.youtube.com/channel/UCkOLUBShmCI3yFo51JL124w" target='_blank'>@D E V - S E N P A I 魔王</a></LinkSpan>
           </Paragraph>
         </TextBox>
         <TextBox

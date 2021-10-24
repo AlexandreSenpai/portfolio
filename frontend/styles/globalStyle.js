@@ -1,7 +1,8 @@
 import { createGlobalStyle } from "styled-components"
-import '_app.fonts.css'
 
 export const GlobalStyle = createGlobalStyle`
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
   body, html {
     width: 100%;
     height: 100%;
@@ -13,6 +14,11 @@ export const GlobalStyle = createGlobalStyle`
 
   h1, h2, h3, h4, h5, h6, p, a, li, span, button {
     transition: color 200ms ease-in-out;
+  }
+
+  a {
+    text-decoration: none;
+    color: ${(props) => props.theme.fonts.color.link};  
   }
 
   *, *::after, *::before{
